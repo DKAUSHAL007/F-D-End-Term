@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    font-family:poppins;
+}
+.banner{
+    background-color: rgb(31, 6, 32);
+    height:90vh;
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.6rem;
+    /* color:antiquewhite; */
+    position: relative;
+    overflow: hidden;
+    background-image: url(C:\Users\Dishant\Desktop\React-ete\ete-project\sources\sten-ritterfeld-eFgjzZ0FeXs-unsplash.jpg);
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+}    
+
+
+.leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    flex-direction:column;
+}
+
+.heading{
+    /* background-color:magenta; */
+    font-size:4.4em;
+    padding: 3rem;
+    line-break:strict;
+    background-image:linear-gradient(90deg,rgb(225, 50, 79),rgb(255, 213, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.para{
+    /* background-color:blueviolet; */
+    padding: 2rem;
+    font-size:1.05em;
+    color: rgb(220, 215, 215);
+    font-weight: 600;
+    padding:2.5em;
+    max-lines: 1;
+    line-break: strict;
+}
+
+.button{
+    display: flex;
+    height:8vh;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh;
+}
+.button>*{
+    height: inherit;
+    width: 30%;
+    border: none;
+    background-color:rgb(31, 6, 32);
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:.3s ease-in-out;
+    text-decoration: none;
+}
+
+.button>*:hover{
+    cursor:pointer;
+    color: white;
+    background-color:rgb(64, 15, 67);
+}

@@ -1,0 +1,73 @@
+.demo{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding-top:12rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding:2rem;
+    box-shadow: 0px 0px 10px 10px rgba(22, 22, 22, 0.396);
+    justify-content:center;
+}
+
+.label{
+    background-color: white;
+    font-size:1.2rem;
+    font-weight: 600;
+    padding:.1rem .8rem .1rem .8rem;
+}
+
+.input{
+    height:5vh;
+    border: 2px solid black;
+    border-radius:2px;
+    outline: none;
+    padding: .8rem;
+    margin-bottom:1.5rem;
+    transition:.2s ease-in-out
+}
+
+.input:focus{
+    border: 2px solid blue ;
+}
+
+.gender{
+    /* background-color:red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender>div{
+    margin-right:auto;
+    margin-left:auto;
+    width:10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between; 
+}
+.gender input{
+    margin-top:3vh
+}
+input[type="file"]{
+    padding: .8rem;
+}
+button{
+    background-color: rgb(31, 6, 32);
+    color: white;
+    height:8vh;
+    transition:.3s;
+    cursor: pointer;
+    margin-top:2rem;
+}
+button:hover{
+    background-color: rgb(79, 35, 81);
+
+}

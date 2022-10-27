@@ -1,0 +1,12 @@
+.container{
+    /* background-color:red; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 8rem 2rem 2rem 2rem;
+}
+.grid{
+    display:grid;
+    gap: 1rem;
+    width: 65%;
+}
